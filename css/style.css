@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-stretch: 150%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #EBEBEB;
+    text-transform: uppercase;
+    color: #808080;
+    min-width: 850px;
+}
+
+.menuGauche {
+    display: flex;
+    align-items: center;
+}
+
+.menuGauche > p > a {
+    border-left: 2px solid #EBEBEB;
+    padding: 2px 18px 0 20px;
+}
+
+.menuGauche > p > a:first-child {
+    border: none;
+}
+
+.menuDroite {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+#titre {
+    border-right: 2px solid #EBEBEB;
+    padding: 20px 25px;
+    color: #505050;
+}
+
+#loupe {
+    border-left: 2px solid #EBEBEB;
+    padding: 20px 25px;
+}
+
+#burger {
+    border-left: 2px solid #EBEBEB;
+    padding: 20px 25px;
+}
