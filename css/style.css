@@ -89,7 +89,7 @@ i {
 section {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .content {
@@ -220,6 +220,15 @@ button:hover {
     background-color: #E0E0E0;
 }
 
+button:disabled {
+    color: #E0E0E0;
+    cursor: default;
+}
+
+button:disabled:hover {
+    background-color: #F4F4F4;
+}
+
 .iconesContact>i {
     padding: 10px 15px;
     cursor: pointer;
@@ -235,6 +244,7 @@ button:hover {
 .colonneDroite {
     display: flex;
     flex-direction: column;
+    gap: 40px
 }
 
 .article {
@@ -242,7 +252,6 @@ button:hover {
     grid-template-columns: repeat(3, 1fr);
     background-color: #FFFFFF;
     border: 1px solid #E0E0E0;
-    margin-bottom: 40px;
     width: 750px;
 }
 
@@ -325,4 +334,9 @@ p.auteur {
 
 .footerArticle>button:hover {
     background-color: #F4F4F4;
+}
+
+.pagesNavigation {
+    display: flex;
+    gap: 20px;
 }
