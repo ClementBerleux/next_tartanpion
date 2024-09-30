@@ -35,6 +35,7 @@ li {
     padding: 8px 22px 8px 24px;
     color: #A0A0A0;
     transition: background-color 1s, color 1s;
+    text-transform: uppercase;
 }
 
 li:first-child {
@@ -131,7 +132,7 @@ h3 {
 }
 
 h4 {
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-transform: uppercase;
     color: #606060;
     margin-bottom: 5px;
@@ -212,9 +213,22 @@ button {
     color: #606060;
     background-color: #F4F4F4;
     border: 1px solid #E0E0E0;
+    cursor: pointer;
 }
 
 button:hover {
+    background-color: #E0E0E0;
+}
+
+.iconesContact>i {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.iconesContact>i:hover {
     background-color: #E0E0E0;
 }
 
@@ -264,8 +278,8 @@ button:hover {
     color: #A0A0A0;
 }
 
-.infosArticle>b {
-    color: #606060;
+p.auteur {
+    font-size: 0.8em;
 }
 
 .contenuArticle {
@@ -296,9 +310,17 @@ button:hover {
     border: 1px solid #E0E0E0;
 }
 
-.footerArticle>p {
+.footerArticle>ul>li {
     text-transform: uppercase;
     color: #A0A0A0;
+    cursor: pointer;
+    border-left: 1px solid #E0E0E0;
+    padding: 5px 15px;
+    font-size: 0.8em;
+}
+
+.footerArticle>ul>li:first-child {
+    border-left: none;
 }
 
 .footerArticle>button:hover {
