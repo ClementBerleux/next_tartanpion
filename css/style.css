@@ -119,14 +119,14 @@ li:hover {
     color: #606060;
 }
 
-#loupe {
+.iconeNavigation {
     border-left: 2px solid #E0E0E0;
     padding: 20px 25px;
 }
 
-#burger {
-    border-left: 2px solid #E0E0E0;
-    padding: 20px 25px;
+.iconeNavigation:hover {
+    background-color: #E0E0E0;
+    cursor: pointer;
 }
 
 i {
